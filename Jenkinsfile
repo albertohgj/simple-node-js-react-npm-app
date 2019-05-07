@@ -5,7 +5,7 @@ pipeline {
             args '-p 3012:3012'
         }
     }
-    enviroment{
+    environment{
         CI='true'
     }
     stages {
