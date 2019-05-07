@@ -5,6 +5,9 @@ pipeline {
             args '-p 3012:3012'
         }
     }
+    enviroment{
+        CI='true'
+    }
     stages {
         stage('Build') { 
             steps {
